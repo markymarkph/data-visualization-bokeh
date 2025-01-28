@@ -4,7 +4,7 @@ from bokeh.io import output_file
 from bokeh.models import ColumnDataSource, HoverTool
 from bokeh.models import FactorRange
 
-# Sample DataFrame creation (replace with your CSV loading logic)
+# Sample DataFrame creation
 file_path = "Test.csv"
 data = pd.read_csv(file_path)
 
